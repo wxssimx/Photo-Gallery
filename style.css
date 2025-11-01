@@ -1,0 +1,35 @@
+body {
+  margin: 2%;
+  border: 1px solid black;
+  background-color: #edcee2;
+}
+
+#gallery {
+  display: block;
+  height: 270px;
+  width: 160px;
+  display: flex;
+  justify-content: center;
+  border: 1px #7a044f solid;
+  float: right;
+  background-color: #edcee2;
+  background-size: 100%;
+  color: rgb(134, 22, 100);
+  text-align: center;
+  font-size: 150%;
+  position: relative;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  color: #7a044f;
+}
+
+.preview {
+  height: 270px;
+  width: 160px;
+  margin-left: 180px;
+  margin-top: 10px;
+  border: 1px #7a044f solid;
+}

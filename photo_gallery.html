@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="unDo()">
+    <div id="gallery" class="flex" onfocus="upDate()" onblur="unDo()"></div>
+    <h1>Flowers Photo Gallery</h1>
+    <hr />
+    <img
+      class="preview"
+      src="/images/tulips.jpg"
+      alt="Tulips"
+      onfocus="upDate()"
+      onblur="unDo()"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+    <img
+      class="preview"
+      src="/images/hydrangeas.jpg"
+      alt="Hydrangeas"
+      onfocus="upDate()"
+      onblur="unDo()"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+    <img
+      class="preview"
+      src="/images/peonies.jpg"
+      alt="Peonies"
+      onfocus="upDate()"
+      onblur="unDo()"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+    <br />
+    <img
+      class="preview"
+      src="/images/roses.jpg"
+      alt="Roses"
+      onfocus="upDate()"
+      onblur="unDo()"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+    <img
+      class="preview"
+      src="/images/carnation.jpg"
+      alt="Carnation"
+      onfocus="upDate()"
+      onblur="unDo()"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+    <img
+      class="preview"
+      src="/images/lilies.jpg"
+      alt="Lilies"
+      onfocus="upDate()"
+      onblur="unDo()"
+      onmouseover="upDate(this)"
+      onmouseout="unDo()"
+    />
+    <script src="script.js"></script>
+  </body>
+</html>
